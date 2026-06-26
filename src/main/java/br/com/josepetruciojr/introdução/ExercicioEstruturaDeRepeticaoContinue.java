@@ -1,4 +1,4 @@
-package br.com.josepetruciojr;
+package br.com.josepetruciojr.introdução;
 
 public class ExercicioEstruturaDeRepeticaoContinue {
 

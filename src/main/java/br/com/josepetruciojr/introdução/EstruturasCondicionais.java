@@ -1,6 +1,4 @@
-package br.com.josepetruciojr;
-
-import com.sun.security.jgss.GSSUtil;
+package br.com.josepetruciojr.introdução;
 
 import java.util.Scanner;
 

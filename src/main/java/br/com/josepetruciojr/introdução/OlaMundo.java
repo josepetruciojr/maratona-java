@@ -1,4 +1,4 @@
-package br.com.josepetruciojr;
+package br.com.josepetruciojr.introdução;
 // para realizar um comentario javadoc /** + enter.
 /**
  * Isto é um comentário javadoc.

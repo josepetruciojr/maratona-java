@@ -1,4 +1,4 @@
-package br.com.josepetruciojr;
+package br.com.josepetruciojr.introdução;
 
 public class ArrayMultidimensionais2 {
     public static void main(String[] args) {
