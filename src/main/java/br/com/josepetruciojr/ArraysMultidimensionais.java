@@ -16,9 +16,25 @@ public class ArraysMultidimensionais {
         days[2][1] = 8;
         days[2][2] = 9;
 
+        /* aqui a iteração passar pelo array de referencia i que são posições na memoria
+        j itera sobre os valores
+         */
+
         for(int i = 0; i < days.length; i++){
             for(int j = 0; j < days[i].length; j++){
                 System.out.println(days[i][j]);
+            }
+        }
+
+        System.out.println("------------------------------");
+
+        /*
+        aqui a iteração vem da variavel de referencia arrayDays passando pelos indexes deste array e acessando
+        o indexes de arrayDay e printando num
+        */
+        for(int[] arrayDays : days){
+            for (int num : arrayDays){
+                System.out.println(num);
             }
         }
     }
