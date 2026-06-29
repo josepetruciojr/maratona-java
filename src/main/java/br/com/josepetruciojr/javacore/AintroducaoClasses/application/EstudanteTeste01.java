@@ -2,7 +2,7 @@ package br.com.josepetruciojr.javacore.AintroducaoClasses.application;
 
 import br.com.josepetruciojr.javacore.AintroducaoClasses.model.Estudante;
 
-public class Estudante01 {
+public class EstudanteTeste01 {
     public static void main(String[] args) {
 
         Estudante estudante = new Estudante();
