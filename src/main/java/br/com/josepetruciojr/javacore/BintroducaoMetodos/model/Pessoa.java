@@ -24,14 +24,14 @@ public class Pessoa {
     }
 
     public void setIdade(int idade) {
-        if (idade < 0){
-            System.out.println("Idade inválida.");
-            return;
-        }
         this.idade = idade;
     }
 
-    public void imprime(){
+    public void imprime() {
+        if (this.idade < 0) {
+            System.out.println("Idade inválida.");
+            return;
+        }
         System.out.println(this.nome);
         System.out.println(this.idade);
     }
