@@ -13,9 +13,12 @@ public class SacolaoTeste01 {
 
         Produto[] produtos = {produto1, produto2, produto3};
 
+        Sacolao sacolao1 = new Sacolao("Hortifruti da Maria", produtos);
+
         sacolao.setProduto(produtos);
 
         sacolao.imprime();
+        sacolao1.imprime();
 
 
     }

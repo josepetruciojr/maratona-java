@@ -14,6 +14,7 @@ public class Sacolao {
     }
 
     public void imprime(){
+        System.out.println("---------------");
         System.out.println(this.nome);
         if(produtos == null) return;
         for(Produto produto: produtos){
