@@ -20,11 +20,16 @@ public class Jogador {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Time getTime() {
+        return time;
+    }
+
     public void setTime(Time time){
         this.time = time;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 }
