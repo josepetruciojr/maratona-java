@@ -16,8 +16,6 @@ public class CarroTest01 {
         carro1.imprime();
         carro2.imprime();
         carro3.imprime();
-
-
     }
 
 }
