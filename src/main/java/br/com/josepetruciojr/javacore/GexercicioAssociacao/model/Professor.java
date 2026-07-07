@@ -16,9 +16,11 @@ public class Professor {
 
     public void imprime(){
         System.out.println(this.nome + " - " + this.especialidade);
+        if(seminarios ==null) return;
         System.out.println("Está inscrito no(s) seguinte(s) seminario(s): ");
         for (Seminario seminario : seminarios) {
             System.out.println(seminario.getTitulo());
+            System.out.println(seminario.getLocal().getEndereco());
         }
 
     }

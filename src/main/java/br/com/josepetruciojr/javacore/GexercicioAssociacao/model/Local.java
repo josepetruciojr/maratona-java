@@ -1,12 +1,12 @@
 package br.com.josepetruciojr.javacore.GexercicioAssociacao.model;
 
-public class Endereco {
+public class Local {
     private String endereco;
 
-    public Endereco() {
+    public Local() {
     }
 
-    public Endereco(String endereco){
+    public Local(String endereco){
 
     }
 

@@ -2,20 +2,20 @@ package br.com.josepetruciojr.javacore.GexercicioAssociacao.model;
 
 public class Seminario {
     private String titulo;
-    private Endereco endereco;
+    private Local local;
     private Aluno[] alunos;
 
     public Seminario(){};
 
-    public Seminario(String titulo, Endereco endereco){
+    public Seminario(String titulo, Local local){
         this.titulo = titulo;
-        this.endereco = endereco;
+        this.local = local;
     }
 
     public void imprime(){
         System.out.println("Nome do evento: " + this.titulo);
-        if(endereco != null){
-            System.out.println("Endereço: " + endereco.getEndereco());
+        if(local != null){
+            System.out.println("Endereço: " + local.getEndereco());
         }
         else {
             System.out.println("Evento " + this.titulo + " não pode acontecer sem um endereço");
@@ -24,6 +24,7 @@ public class Seminario {
 
     public void imprimeParticipantes(){
         System.out.println("Imprimindo a lista de participantes no seminario:  " + titulo);
+        if (alunos == null) return;
         for (Aluno aluno : alunos) {
             System.out.println(aluno.getNome());
         }
@@ -37,12 +38,12 @@ public class Seminario {
         this.alunos = alunos;
     }
 
-    public Endereco getEndereco() {
-        return endereco;
+    public Local getLocal() {
+        return local;
     }
 
-    public void setEndereco(Endereco endereco) {
-        this.endereco = endereco;
+    public void setLocal(Local local) {
+        this.local = local;
     }
 
     public String getTitulo() {

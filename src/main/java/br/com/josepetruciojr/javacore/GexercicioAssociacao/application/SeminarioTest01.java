@@ -1,7 +1,7 @@
 package br.com.josepetruciojr.javacore.GexercicioAssociacao.application;
 
 import br.com.josepetruciojr.javacore.GexercicioAssociacao.model.Aluno;
-import br.com.josepetruciojr.javacore.GexercicioAssociacao.model.Endereco;
+import br.com.josepetruciojr.javacore.GexercicioAssociacao.model.Local;
 import br.com.josepetruciojr.javacore.GexercicioAssociacao.model.Professor;
 import br.com.josepetruciojr.javacore.GexercicioAssociacao.model.Seminario;
 
@@ -10,14 +10,14 @@ public class SeminarioTest01 {
         Seminario seminario = new Seminario();
         Seminario seminario1 = new Seminario();
         Professor professor1 = new Professor();
-        Endereco endereco = new Endereco();
+        Local local = new Local();
 
-        endereco.setEndereco("Rua dos malandros");
+        local.setEndereco("Rua dos malandros");
         seminario.setTitulo("Tecnologias do Futuro");
-        endereco.setEndereco("Rua dos Valqueires");
+        local.setEndereco("Rua dos Valqueires");
         seminario1.setTitulo("Tecnologias Legadas");
-        seminario.setEndereco(endereco);
-        seminario1.setEndereco(endereco);
+        seminario.setLocal(local);
+        seminario1.setLocal(local);
 
         seminario.imprime();
         seminario1.imprime();
@@ -25,6 +25,7 @@ public class SeminarioTest01 {
         System.out.println("--------------");
         professor1.setNome("Jorge Luiz");
         Seminario[] seminarios = {seminario, seminario1};
+
         professor1.setEspecialidade("Dr. em Tecnologia da Informação");
         professor1.setSeminarios(seminarios);
 
