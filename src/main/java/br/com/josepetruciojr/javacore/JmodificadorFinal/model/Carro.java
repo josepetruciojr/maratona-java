@@ -17,6 +17,10 @@ public class Carro {
     public Carro(){
     }
 
+    public void imprime(){
+        System.out.println(this.nome);
+    }
+
     public String getNome() {
         return nome;
     }
