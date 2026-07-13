@@ -4,12 +4,11 @@ package br.com.josepetruciojr.javacore.Kenums.model;
 public class Cliente {
 
     private String nome;
-    private String tipo;
     private TipoCliente tipoCliente;
     private TipoPagamento tipoPagamento;
 
     /**
-
+    Modificador tipo "pacote" quando você não define um tipo de modificador de acesso, ele funciona para qualquer classe dentro do pacote.
      É um forma de criar um atributo que pertença a classe somente e não possa ser modificado não usual, alternativo ao Enum.
     public static final String PESSOA_FISICA = "PESSOA_FISICA";
     public static final String PESSOA_JURIDICA = "PESSOA_JURIDICA";
@@ -39,7 +38,8 @@ public class Cliente {
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
-                ", Tipo Cliente=" + tipoCliente +
+                ", Tipo Cliente=" + tipoCliente.getNomeRelatorio() +
+                ", Tipo ClienteInt=" + tipoCliente.VALOR +
                 ", Tipo Pagamento=" + tipoPagamento +
                 '}';
     }
@@ -52,11 +52,4 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
 }
