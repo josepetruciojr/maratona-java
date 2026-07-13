@@ -1,6 +1,6 @@
-package br.com.josepetruciojr.javacore.FmodificadoresEstaticos.model;
+package br.com.josepetruciojr.javacore.FmodificadoresEstaticos.application;
 
-import br.com.josepetruciojr.javacore.FmodificadoresEstaticos.application.Anime;
+import br.com.josepetruciojr.javacore.FmodificadoresEstaticos.model.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {

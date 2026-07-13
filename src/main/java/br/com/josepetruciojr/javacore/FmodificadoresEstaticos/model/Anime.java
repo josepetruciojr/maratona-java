@@ -1,4 +1,4 @@
-package br.com.josepetruciojr.javacore.FmodificadoresEstaticos.application;
+package br.com.josepetruciojr.javacore.FmodificadoresEstaticos.model;
 /**
  * blocos de inicialização sempre são executados antes do construtor, chamado não estático ou de instancia.
  * 0º bloco de inicialização é executado quando a JVM carregar a classe
