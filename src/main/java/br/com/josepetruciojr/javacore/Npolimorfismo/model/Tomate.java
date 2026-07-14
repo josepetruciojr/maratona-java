@@ -2,6 +2,7 @@ package br.com.josepetruciojr.javacore.Npolimorfismo.model;
 
 public class Tomate extends Produto {
     public static final double IMPOSTO_PORCENTO = 0.06;
+    private String dataValidade;
     public Tomate(String nome, double valor) {
         super(nome, valor);
     }
@@ -9,5 +10,13 @@ public class Tomate extends Produto {
     @Override
     public double calculaImposto() {
         return valor * IMPOSTO_PORCENTO;
+    }
+
+    public String getDataValidade() {
+        return dataValidade;
+    }
+
+    public void setDataValidade(String dataValidade) {
+        this.dataValidade = dataValidade;
     }
 }

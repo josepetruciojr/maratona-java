@@ -8,8 +8,8 @@ public class ProdutoTeste01 {
     public static void main(String[] args) {
         Computador computador = new Computador("MAC", 12000);
         Tomate tomate = new Tomate("Cereja", 7.00);
-        CalculadoraImposto.calcularImpostoComputador(computador);
+        CalculadoraImposto.calcularImposto(computador);
         System.out.println("--------------------------");
-        CalculadoraImposto.calcularImpostoTomate(tomate);
+        CalculadoraImposto.calcularImposto(tomate);
     }
 }
