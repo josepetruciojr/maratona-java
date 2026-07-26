@@ -1,4 +1,4 @@
-package br.com.josepetruciojr.javacore.Oexception.exception;
+package br.com.josepetruciojr.javacore.Oexception.exception.application;
 
 import br.com.josepetruciojr.javacore.Oexception.exception.model.Leitor1;
 import br.com.josepetruciojr.javacore.Oexception.exception.model.Leitor2;

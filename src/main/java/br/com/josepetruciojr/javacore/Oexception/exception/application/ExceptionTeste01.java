@@ -1,4 +1,4 @@
-package br.com.josepetruciojr.javacore.Oexception.exception;
+package br.com.josepetruciojr.javacore.Oexception.exception.application;
 
 import java.io.File;
 import java.io.IOException;
