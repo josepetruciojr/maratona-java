@@ -1,4 +1,4 @@
-package br.com.josepetruciojr.javacore.Qstring.application;
+package br.com.josepetruciojr.javacore.Qstring.model;
 
 public class StringTeste02 {
     public static void main(String[] args) {
