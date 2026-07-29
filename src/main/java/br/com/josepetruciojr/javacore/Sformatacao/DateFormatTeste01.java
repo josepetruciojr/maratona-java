@@ -1,4 +1,4 @@
-package br.com.josepetruciojr.javacore.Rdatas.application;
+package br.com.josepetruciojr.javacore.Sformatacao;
 
 import java.text.DateFormat;
 import java.util.Calendar;

@@ -1,10 +1,7 @@
-package br.com.josepetruciojr.javacore.Rdatas.application;
-
-import br.com.josepetruciojr.javacore.GexercicioAssociacao.model.Local;
+package br.com.josepetruciojr.javacore.Sformatacao;
 
 import java.text.DateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 
 public class LocaleTeste01 {
