@@ -45,7 +45,7 @@ public class Cliente {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
                 ", email='" + email + '\'' +
-                ", birthDate=" + SIMPLE_DATE_FORMAT.format(birthDate) +
+                ", birthDate=" + birthDate +
                 '}';
     }
 }

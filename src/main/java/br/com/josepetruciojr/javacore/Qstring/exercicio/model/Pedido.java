@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import static br.com.josepetruciojr.javacore.Qstring.exercicio.model.Cliente.SIMPLE_DATE_FORMAT;
-
 public class Pedido {
     private Date dataPedido;
     private final OrderStatus status;
@@ -49,10 +47,10 @@ public class Pedido {
     @Override
     public String toString() {
         return "Pedido{" +
-                "cliente= " + cliente.getNome() +
-                ", dataPedido= " + SIMPLE_DATE_FORMAT.format(dataPedido) +
-                ", status= " + status +
-                ", itemPedidos= " + itemPedidos +
+                "\ncliente= " + cliente.getNome() +
+                ",\ndataPedido= " + dataPedido +
+                ",\nstatus= " + status +
+                ",\nitemPedidos= " + itemPedidos +
                 "\ntotal= " + total() +
                 '}';
     }

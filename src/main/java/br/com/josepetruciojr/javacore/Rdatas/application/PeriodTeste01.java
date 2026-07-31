@@ -2,6 +2,7 @@ package br.com.josepetruciojr.javacore.Rdatas.application;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 public class PeriodTeste01 {
     public static void main(String[] args) {
@@ -15,7 +16,8 @@ public class PeriodTeste01 {
         Period p4 = Period.ofMonths(3);
         Period p5 = Period.ofYears(3);
         //caso eu tente pegar um periodo de meses ex. retornara um valor direto se eu nao utilizar a chronounits
-        System.out.println(Period.between(LocalDate.now(), LocalDate.now().plusDays((p3.getDays()))).getMonths());
+        System.out.println(Period.between(now, now.plusDays((p3.getDays()))).getMonths());
+        System.out.println(now.until(now.plusDays(p3.getDays()), ChronoUnit.YEARS));
 
         System.out.println(p1);
         System.out.println(p2);
