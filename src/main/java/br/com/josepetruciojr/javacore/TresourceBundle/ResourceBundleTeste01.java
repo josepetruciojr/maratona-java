@@ -9,6 +9,7 @@ public class ResourceBundleTeste01 {
         //criar um arquivo fora do pacote do programa
         //nome pode ser qq um, porem um preciso informar por ex: texto_en_US
         //criada a pasta resources - dentro dela os bundles
+        System.out.println(Locale.getDefault());
         ResourceBundle bundle = ResourceBundle.getBundle("messages");
         System.out.println(bundle.getString("ola"));
         ResourceBundle bundle1 = ResourceBundle.getBundle("messages", new Locale("en", "US"));
