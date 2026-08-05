@@ -1,4 +1,4 @@
-package br.com.josepetruciojr.javacore.Rdatas.application;
+package br.com.josepetruciojr.javacore.Rdatas;
 
 import java.time.*;
 import java.time.temporal.ChronoUnit;

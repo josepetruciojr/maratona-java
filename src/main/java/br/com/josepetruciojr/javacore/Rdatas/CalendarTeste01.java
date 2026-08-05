@@ -1,4 +1,4 @@
-package br.com.josepetruciojr.javacore.Rdatas.application;
+package br.com.josepetruciojr.javacore.Rdatas;
 
 import java.util.Calendar;
 import java.util.Date;
