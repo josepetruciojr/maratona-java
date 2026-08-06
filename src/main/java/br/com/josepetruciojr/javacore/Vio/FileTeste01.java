@@ -9,7 +9,7 @@ import java.time.ZoneId;
 //File
 //FileWriter
 //FileReader
-//BufferedWriter
+//BufferedWriterTeste01
 //BufferedReader
 
 public class FileTeste01 {
